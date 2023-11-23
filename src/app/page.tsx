@@ -30,17 +30,16 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className='mt-10'>
+      <div className='mt-16'>
         <div className='w-3/4 m-auto bg-blue-300 p-5 border-2 border-blue-600 text-white'>
           <p className='font-sans text-justify'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam luctus
-            gravida mi ac vulputate. Donec quam neque, euismod non nibh eu,
-            pretium imperdiet mi. Duis et consequat enim. Donec scelerisque urna
-            sapien, vitae feugiat tellus laoreet sed. Quisque accumsan feugiat
-            metus. Fusce volutpat vehicula leo et tristique. Sed vel fermentum
-            est, eget tempus dui. Quisque non risus nec sapien blandit dignissim
-            nec eu orci. Nulla felis arcu, vehicula vitae ligula non, aliquam
-            volutpat nisi. Nullam dignissim egestas pulvinar.
+            Saya memiliki pengalaman di bidang retail dengan keterampilan
+            upselling, komunikasi, dan product knowledge yang cukup baik.
+            Kemudian, saya beralih ke bidang pengembangan web sebagai Front End
+            Developer dengan keterampilan JavaScript / TypeScript, React.js,
+            NextJs, CSS Preprocessor, serta familiar dengan integrasi API untuk
+            data yang dinamis pada aplikasi web front-end. Saya juga memiliki
+            gelar akademisi dalam bidang ilmu komputer dengan GPA 3.56.
           </p>
         </div>
       </div>
