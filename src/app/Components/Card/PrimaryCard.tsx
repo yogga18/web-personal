@@ -13,6 +13,7 @@ const PrimaryCard = ({ id, data, isMetaData }: any) => {
         alt='Picture of the author'
         width={800}
         height={900}
+        priority
       />
       <div className='px-6 py-5'>
         <Link href={data.url} target='_blank' rel='noopener noreferrer'>
