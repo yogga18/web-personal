@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 const NavigationBar = () => {
   const pathname = usePathname();
   return (
-    <ul className='flex flex-row md:flex-col gap-3 bg-blue-300 h-full w-full align-baseline justify-center items-center'>
+    <ul className='flex flex-row md:flex-col gap-3 bg-blue-300 h-full w-full align-baseline justify-center items-center border-white border-t-2 md:border-2'>
       <li
         className={`font-thin md:font-bold text-white font-sans ${
           pathname === '/' ? 'border border-white p-2 rounded-lg' : ''
