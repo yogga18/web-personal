@@ -23,8 +23,8 @@ const PrimaryCard = ({ id, data, isMetaData }: any) => {
         </Link>
         {isMetaData ? (
           <div className='flex justify-between my-5'>
-            <p>Oleh {data.author}</p>
-            <p>{data.createdAt}</p>
+            <p className='text-sm font-sans'>Oleh {data.author}</p>
+            <p className='text-sm font-sans'>{data.createdAt}</p>
           </div>
         ) : null}
 
