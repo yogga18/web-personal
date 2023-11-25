@@ -14,7 +14,7 @@ const Contact = () => {
   return (
     <div className='grid grid-cols-12 w-full h-screen'>
       <div className='col-span-12 m-auto'>
-        <div className='text-white font-mono bg-blue-300 border-2 border-blue-600 p-5 mx-5'>
+        <div className='text-white font-mono bg-blue-300 border-2 border-blue-400 p-5 mx-5'>
           <h1 className='text-center'>You can connect with me...</h1>
         </div>
         <div className='flex flex-row mt-5 gap-3 md:gap-8 mx-1'>

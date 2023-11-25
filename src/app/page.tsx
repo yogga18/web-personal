@@ -13,9 +13,24 @@ export default function Home() {
       <div className='m-auto w-full h-full flex flex-col gap-3 md:flex-row justify-evenly align-baseline items-center'>
         <div>
           <h5 className='text-center'>Hai..... 👋 there, my name is </h5>
-          <h1 className='font-bold text-blue-400 text-center'>
-            Yogga Aditya Candra
+          <h1 className='font-bold text-blue-400 text-center mb-3'>
+            Yogga Aditya{' '}
+            <mark className='bg-blue-500 text-white px-1'>Candra</mark>
           </h1>
+          <div className='m-auto hidden md:flex flex-wrap align-middle justify-center gap-1 w-full'>
+            <mark className='bg-yellow-300 px-1 font-sans shadow-md rounded-sm '>
+              👽 Web Dev.
+            </mark>
+            <mark className='bg-purple-300 px-1 font-sans shadow-md rounded-sm'>
+              🎓 Computer Science
+            </mark>
+            <mark className='bg-green-300 px-1 font-sans shadow-md rounded-sm'>
+              🚴‍♀️ Cyclist
+            </mark>
+            <mark className='bg-red-300 px-1 font-sans shadow-md rounded-sm'>
+              🔍 Lifelong Learner
+            </mark>
+          </div>
         </div>
         <div>
           <div className='h-52 w-52 relative'>
@@ -23,6 +38,7 @@ export default function Home() {
               style={{
                 border: '1px solid #759dca',
                 padding: '2px',
+                boxShadow: '0px 0px 8px 0px #759dca',
               }}
               src='/IMG_5434.jpg'
               alt='Picture of the author'
@@ -33,8 +49,22 @@ export default function Home() {
             />
           </div>
         </div>
+        <div className='md:hidden m-auto flex flex-wrap align-middle justify-center gap-1 w-full mt-5'>
+          <mark className='bg-yellow-300 px-1 font-sans shadow-md rounded-sm'>
+            👽 Web Dev.
+          </mark>
+          <mark className='bg-purple-300 px-1 font-sans shadow-md rounded-sm'>
+            🎓 Computer Science
+          </mark>
+          <mark className='bg-green-300 px-1 font-sans shadow-md rounded-sm'>
+            🚴‍♀️ Cyclist
+          </mark>
+          <mark className='bg-red-300 px-1 font-sans shadow-md rounded-sm'>
+            🔍 ifelonglearner
+          </mark>
+        </div>
       </div>
-      <div className='mt-16'>
+      <div className='mt-8'>
         <div className='w-4/5 md:w-5/6 m-auto bg-blue-300 p-4 border-2 border-blue-400 text-white'>
           <div>
             <p className='font-sans text-justify'>
