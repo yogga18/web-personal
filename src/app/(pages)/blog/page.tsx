@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 const Blog = () => {
-  const DataDummy = DummyDataBlog;
+  const DataDummy = DummyDataBlog.sort((a, b) => b.id - a.id);
 
   return (
     <div className='grid grid-cols-12 w-full h-screen overflow-y-scroll'>

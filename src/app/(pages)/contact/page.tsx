@@ -19,13 +19,6 @@ const Contact = () => {
         </div>
         <div className='flex flex-row mt-5 gap-3 md:gap-8 mx-1'>
           <Link
-            href={'mailto:yogga910@gmail.com'}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <BiLogoGmail size={50} color='#ea4335' />
-          </Link>
-          <Link
             href={'https://www.linkedin.com/in/yoggaac/'}
             target='_blank'
             rel='noopener noreferrer'
@@ -45,6 +38,13 @@ const Contact = () => {
             rel='noopener noreferrer'
           >
             <FaMedium size={50} />
+          </Link>
+          <Link
+            href={'mailto:yogga910@gmail.com'}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <BiLogoGmail size={50} color='#ea4335' />
           </Link>
           <Link
             href={'https://t.me/yoggaacc'}

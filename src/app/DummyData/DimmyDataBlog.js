@@ -65,4 +65,15 @@ export const DummyDataBlog = [
     description:
       'Agar terhindar dari penulisan kode yang berulang salah satu caranya kita dapat menggunakan Function, function itu sendiri adalah sebuah kode pemrograman yang dibuat untuk menjalankan tugas tertentu, function pada javascript biasanya ( tidak harus ) dibuat dengan nama camel case sebagai contoh printText(){}. Berikut ini beberpa hal yang perlu anda',
   },
+  {
+    id: 7,
+    thumbnail:
+      'https://miro.medium.com/v2/resize:fit:828/format:webp/0*UGD30au6h7KsJCwd',
+    url: 'https://medium.com/@yoggacandra/hands-on-docker-c4a1e4769246',
+    title: 'Hands on DOCKER 🐳',
+    createdAt: '29 Maret 2021',
+    author: 'Yogga Aditya Candra',
+    description:
+      'For example we can install ubuntu from locally, but if ubuntu not found we can install ubuntu from docker hub let’s me show you…',
+  },
 ];

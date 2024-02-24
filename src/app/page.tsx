@@ -15,7 +15,9 @@ export default function Home() {
           <h5 className='text-center'>Hai..... 👋 there, my name is </h5>
           <h1 className='font-bold text-blue-400 text-center mb-3'>
             Yogga Aditya{' '}
-            <mark className='bg-blue-500 text-white px-1'>Candra</mark>
+            <mark className='bg-blue-500 text-white px-1 rounded-sm'>
+              Candra
+            </mark>
           </h1>
           <div className='m-auto hidden md:flex flex-wrap align-middle justify-center gap-1 w-full'>
             <mark className='bg-yellow-300 px-1 font-sans shadow-md rounded-sm '>
@@ -23,12 +25,6 @@ export default function Home() {
             </mark>
             <mark className='bg-purple-300 px-1 font-sans shadow-md rounded-sm'>
               🎓 Computer Science
-            </mark>
-            <mark className='bg-green-300 px-1 font-sans shadow-md rounded-sm'>
-              🚴‍♀️ Cyclist
-            </mark>
-            <mark className='bg-red-300 px-1 font-sans shadow-md rounded-sm'>
-              🔍 Lifelong Learner
             </mark>
           </div>
         </div>
@@ -55,12 +51,6 @@ export default function Home() {
           </mark>
           <mark className='bg-purple-300 px-1 font-sans shadow-md rounded-sm'>
             🎓 Computer Science
-          </mark>
-          <mark className='bg-green-300 px-1 font-sans shadow-md rounded-sm'>
-            🚴‍♀️ Cyclist
-          </mark>
-          <mark className='bg-red-300 px-1 font-sans shadow-md rounded-sm'>
-            🔍 ifelonglearner
           </mark>
         </div>
       </div>
