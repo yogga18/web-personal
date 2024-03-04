@@ -71,9 +71,21 @@ export const DummyDataBlog = [
       'https://miro.medium.com/v2/resize:fit:828/format:webp/0*UGD30au6h7KsJCwd',
     url: 'https://medium.com/@yoggacandra/hands-on-docker-c4a1e4769246',
     title: 'Hands on DOCKER 🐳',
-    createdAt: '29 Maret 2021',
+    createdAt: '29 February 2024',
     author: 'Yogga Aditya Candra',
     description:
       'For example we can install ubuntu from locally, but if ubuntu not found we can install ubuntu from docker hub let’s me show you…',
+  },
+  {
+    id: 8,
+    thumbnail:
+      'https://miro.medium.com/v2/resize:fit:1400/format:webp/0*hAO9WmrBjJGK2HTH',
+    url: 'https://miro.medium.com/v2/resize:fit:828/format:webp/0*hAO9WmrBjJGK2HTH',
+    title:
+      'First Step with Next.js 14: Embark on Your Adventure with NextJs 🔥🔥',
+    createdAt: '2 Maret 2024',
+    author: 'Yogga Aditya Candra',
+    description:
+      'Hey there! 😎 Just wanted to drop you a line and let you know I just wrapped up writing about Next.js 14. Yeah, I know, it’s pretty basic stuff, but hey, if you’ve got a few minutes to spare, maybe you could give it a read. I’d love to hear your thoughts on it!',
   },
 ];
