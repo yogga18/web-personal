@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-const PrimaryCard = ({ id, data, isMetaData }: any) => {
+const PrimaryCard = ({ id, data }: any) => {
   return (
     <div
       key={id}
@@ -21,12 +21,10 @@ const PrimaryCard = ({ id, data, isMetaData }: any) => {
             {data.title}
           </div>
         </Link>
-        {isMetaData ? (
-          <div className='flex justify-between my-5'>
-            <p className='text-sm font-sans'>Oleh {data.author}</p>
-            <p className='text-sm font-sans'>{data.createdAt}</p>
-          </div>
-        ) : null}
+        <div className='flex justify-between my-5'>
+          <p className='text-sm font-sans'>Oleh {data.author}</p>
+          <p className='text-sm font-sans'>{data.createdAt}</p>
+        </div>
 
         <p className='text-gray-700 text-base hidden md:block text-justify'>
           {data.description}

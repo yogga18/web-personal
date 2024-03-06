@@ -1,8 +1,14 @@
 import { Inter } from 'next/font/google';
-import NavigationBar from './Components/Navbar';
 import './globals.css';
+import Provider from '@/utils/Provider';
+import type { Metadata } from 'next';
 
 const inter = Inter({ subsets: ['latin'] });
+
+export const metadata: Metadata = {
+  title: 'Yogga Aditya Candra',
+  description: 'Home Page',
+};
 
 export default function RootLayout({
   children,
@@ -12,12 +18,9 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <div className='grid grid-cols-12 h-screen'>
-          <div className='md:col-span-10 col-span-12'>{children}</div>
-          <div className='md:col-span-2 col-span-12 sticky md:static bottom-0 left-0 w-full md:h-full h-16'>
-            <NavigationBar />
-          </div>
-        </div>
+        <Provider>
+          <div>{children}</div>
+        </Provider>
       </body>
     </html>
   );
