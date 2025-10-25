@@ -15,4 +15,4 @@ This is the digital blueprint for my portfolio. But a blueprint is never as exci
 I'm always open to discussing interesting ideas.
 
 * **LinkedIn:** [www.linkedin.com/in/yoggaac]
-* **Email:** [yogga910@email.com]
+* **Email:** [yogga910@gmail.com]
